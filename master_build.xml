@@ -97,7 +97,7 @@
   <target name="run" depends="compile">
         <echo message="${basedir}"/>                 
 	<java 	classname="org.wlrobotics.WLTester"
-		classpath="${basedir}/../wlrobotics/bin/"
+		classpath="${basedir}/build/"
 		fork="false"
 		failonerror="true"
 	/>
