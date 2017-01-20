@@ -7,6 +7,10 @@ This project is intended to be checkedout as a sibling directory to the FRC Robo
 
 From there you can add import statements to import classes from this prject through eclipse.
 
+If you want each compile and download of the robot code to also compile, test and download
+the wlrobotics jar as well you can make some edits to the build.xml file located in the 
+root of the robot project.
+
 You will need to add the following lines in the build.xml file located in the root of the
 robot project
 
